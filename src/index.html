@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Testing Typescript from HTML </title>
+        <!--
+        cannot use import statement outside a module
+        <script src="../build/index.js" defer></script>
+        -->
+    </head>
+
+    <body>
+        <!--function call not defined error-->
+        <h1>
+            Calling Typescript from HTML
+        </h1>
+        <script type="module" src="../build/calc.js"></script>
+        <button onclick="functioncall()"> TS funcion functioncall called </button>
+    </body>
+
+</html>

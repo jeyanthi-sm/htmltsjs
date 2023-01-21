@@ -16,3 +16,5 @@ This repository can be used as a template for creating a TypeScript project usin
 
 - Run `npm install` followed by `npm test` to run the tests
 
+- Run `npm run build` followed by `npm install typescript`
+
